@@ -8,10 +8,10 @@ insert into employee (employee_id, first_name, last_name, email) values (7,'Rich
 insert into employee (employee_id, first_name, last_name, email) values (8,'Bvana','John','John@john');
 insert into employee (employee_id, first_name, last_name, email) values (9,'Toni','John','John@john');
 
-insert into project (project_id, name, stage, description) values (1000,'foodbar','INCOMPLETE','foodbar');
-insert into project (project_id, name, stage, description) values (1001,'EmployeeBudget','INCOMPLETE','foodbar');
-insert into project (project_id, name, stage, description) values (1002,'Office Reconstruction','INCOMPLETE','foodbar');
-insert into project (project_id, name, stage, description) values (1003,'Improve Security','INCOMPLETE','foodbar');
+insert into project (project_id, name, stage, description) values (1000,'foodbar','INPROGRESS','foodbar');
+insert into project (project_id, name, stage, description) values (1001,'EmployeeBudget','COMPLETED','foodbar');
+insert into project (project_id, name, stage, description) values (1002,'Office Reconstruction','INPROGRESS','foodbar');
+insert into project (project_id, name, stage, description) values (1003,'Improve Security','NOTSTARTED','foodbar');
 
 insert into project_employee (employee_id, project_id) values (1,1000);
 insert into project_employee (employee_id, project_id) values (1,1001);

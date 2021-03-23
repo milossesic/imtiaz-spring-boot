@@ -8,9 +8,13 @@
 
 <nav th:replace="layouts :: navbar"></nav>
 
-	<div class="container">
-
+<div class="container">
+<h3>Main Dashboard</h3>
+<hr>
 	<h4> Current projects </h4>
+<div class="row">
+<div class="col-md-6">
+
 
 <table class="table table-bordered table-striped">
 	<thead class="thead-dark">
@@ -33,29 +37,54 @@
 	</tbody>
 	
 </table>
-<h4> Current Employees </h4>
+
+	</div>
+	<div class="col-md-4">
+		<canvas id="myPieChart" height="50" width="50"></canvas>
+		
+		<script>
+			var chartData = "[[${projectStatusCount}]]"
+		</script>
+		
+	</div>
+	
+	</div>
+
+	<h4> Current Employees </h4>
+	
+<div class="row">
+<div class="col-md-6">
+
 <table class="table table-bordered table-striped">
 	<thead class="thead-dark">
 		<tr>
-			<th>Employee FirstName</th>
-			<th>Employee LastName</th>
-			<th>Employee Email</th>
+			<th>FirstName</th>
+			<th>LastName</th>
+			<th>Project Count</th>
 			
 		</tr>
 	
 	</thead>
 	<tbody>
-		<tr th:each="aEmployee : ${employees}">
-			<td th:text="${aEmployee.firstName}"/>
-			<td th:text="${aEmployee.lastName}"/>
-			<td th:text="${aEmployee.email}"/>
+		<tr th:each="aEmployeeProjectCount : ${employeesProjectCount}">
+			<td th:text="${aEmployeeProjectCount.firstName}"/>
+			<td th:text="${aEmployeeProjectCount.lastName}"/>
+			<td th:text="${aEmployeeProjectCount.projectCount}"/>
 			
 		</tr>
 	</tbody>
 	
 </table>
+</div>
+</div>
+	
 
 	</div>
+	
+
+<script type="text/javascript" th:src="@{js/myChart.js}"></script>
+
+
 
 </body>
 
