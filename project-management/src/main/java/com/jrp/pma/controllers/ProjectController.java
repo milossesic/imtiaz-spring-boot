@@ -8,27 +8,26 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
-import com.jrp.pma.dao.EmployeeRepository;
-import com.jrp.pma.dao.ProjectRepository;
 import com.jrp.pma.entities.Employee;
 import com.jrp.pma.entities.Project;
+import com.jrp.pma.services.EmployeeService;
+import com.jrp.pma.services.ProjectService;
 
 @Controller
 @RequestMapping("/projects")
 public class ProjectController {
 	
 	@Autowired
-	ProjectRepository projectRepo;
+	ProjectService projectService;
 	
 	@Autowired
-	EmployeeRepository employeeRepo;
+	EmployeeService employeeService;
 	
 	@GetMapping
 	public String displayProjects(Model model, Project project) {
 		
-		List<Project> projects = projectRepo.findAll();
+		List<Project> projects = projectService.getAll();
 		model.addAttribute("projects", projects);
 		
 		return "projects/list-projects";
@@ -41,7 +40,7 @@ public class ProjectController {
 		Project aProject = new Project();
 		model.addAttribute("project",aProject);
 		//attaching employees for new project form
-		List<Employee> employees = employeeRepo.findAll();
+		List<Employee> employees = (List<Employee>) employeeService.getAll();
 		model.addAttribute("allEmployees",employees);
 		
 		return "projects/new-project";
@@ -50,7 +49,7 @@ public class ProjectController {
 	@PostMapping("/save")
 	public String createProject(Project project, Model model) {
 		//saving project
-		projectRepo.save(project);
+		projectService.save(project);
 		
 		return "redirect:/projects";
 		
