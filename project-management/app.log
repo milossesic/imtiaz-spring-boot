@@ -1080,3 +1080,273 @@ Caused by: org.thymeleaf.exceptions.TemplateInputException: Error resolving temp
  
  
  
+2021-09-25 18:04:40.097 DEBUG 17368 --- [http-nio-8080-exec-4] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:04:40.098 DEBUG 17368 --- [http-nio-8080-exec-4] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.EmployeeController. displayEmployeeForm with arguments[s] = [{}] 
+2021-09-25 18:04:40.099 DEBUG 17368 --- [http-nio-8080-exec-4] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:04:40.099 DEBUG 17368 --- [http-nio-8080-exec-4] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:04:40.099 DEBUG 17368 --- [http-nio-8080-exec-4] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.EmployeeController. displayEmployeeForm with arguments[s] = [{}] 
+2021-09-25 18:04:40.099 DEBUG 17368 --- [http-nio-8080-exec-4] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:04:40.099 DEBUG 17368 --- [http-nio-8080-exec-4] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:04:40.099 DEBUG 17368 --- [http-nio-8080-exec-4] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.EmployeeController. displayEmployeeForm with arguments[s] = [{employee=Employee [employeeId=0, firstName=null, lastName=null, email=null]}] 
+2021-09-25 18:04:40.099 DEBUG 17368 --- [http-nio-8080-exec-4] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:04:56.024 DEBUG 17368 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:04:56.024 DEBUG 17368 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.EmployeeController. createEmployee with arguments[s] = [Employee [employeeId=0, firstName=Nancy, lastName=Stojkovic, email=nancy@nancy], {employee=Employee [employeeId=0, firstName=Nancy, lastName=Stojkovic, email=nancy@nancy], org.springframework.validation.BindingResult.employee=org.springframework.validation.BeanPropertyBindingResult: 0 errors}] 
+2021-09-25 18:04:56.024 DEBUG 17368 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:04:56.024 DEBUG 17368 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:04:56.024 DEBUG 17368 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.EmployeeController. createEmployee with arguments[s] = [Employee [employeeId=0, firstName=Nancy, lastName=Stojkovic, email=nancy@nancy], {employee=Employee [employeeId=0, firstName=Nancy, lastName=Stojkovic, email=nancy@nancy], org.springframework.validation.BindingResult.employee=org.springframework.validation.BeanPropertyBindingResult: 0 errors}] 
+2021-09-25 18:04:56.024 DEBUG 17368 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:04:56.107 DEBUG 17368 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:04:56.107 DEBUG 17368 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.EmployeeController. createEmployee with arguments[s] = [Employee [employeeId=-41, firstName=Nancy, lastName=Stojkovic, email=nancy@nancy], {employee=Employee [employeeId=-41, firstName=Nancy, lastName=Stojkovic, email=nancy@nancy], org.springframework.validation.BindingResult.employee=org.springframework.validation.BeanPropertyBindingResult: 0 errors}] 
+2021-09-25 18:04:56.107 DEBUG 17368 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:04:56.140 DEBUG 17368 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:04:56.140 DEBUG 17368 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.EmployeeController. displayEmployees with arguments[s] = [{employee=Employee [employeeId=0, firstName=null, lastName=null, email=null], org.springframework.validation.BindingResult.employee=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, Employee [employeeId=0, firstName=null, lastName=null, email=null]] 
+2021-09-25 18:04:56.140 DEBUG 17368 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:04:56.141 DEBUG 17368 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:04:56.141 DEBUG 17368 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.EmployeeController. displayEmployees with arguments[s] = [{employee=Employee [employeeId=0, firstName=null, lastName=null, email=null], org.springframework.validation.BindingResult.employee=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, Employee [employeeId=0, firstName=null, lastName=null, email=null]] 
+2021-09-25 18:04:56.141 DEBUG 17368 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:04:56.146 DEBUG 17368 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:04:56.146 DEBUG 17368 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.EmployeeController. displayEmployees with arguments[s] = [{employee=Employee [employeeId=0, firstName=null, lastName=null, email=null], org.springframework.validation.BindingResult.employee=org.springframework.validation.BeanPropertyBindingResult: 0 errors, employees=[Employee [employeeId=-42, firstName=Milos, lastName=Sesic, email=milosh.sesic@gmail.com], Employee [employeeId=-41, firstName=Nancy, lastName=Stojkovic, email=nancy@nancy]]}, Employee [employeeId=0, firstName=null, lastName=null, email=null]] 
+2021-09-25 18:04:56.146 DEBUG 17368 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:04:59.244 DEBUG 17368 --- [http-nio-8080-exec-7] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:04:59.245 DEBUG 17368 --- [http-nio-8080-exec-7] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.ProjectController. displayProjects with arguments[s] = [{project=Project [projectId=0, name=null, stage=null, description=null], org.springframework.validation.BindingResult.project=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, Project [projectId=0, name=null, stage=null, description=null]] 
+2021-09-25 18:04:59.245 DEBUG 17368 --- [http-nio-8080-exec-7] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:04:59.245 DEBUG 17368 --- [http-nio-8080-exec-7] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:04:59.245 DEBUG 17368 --- [http-nio-8080-exec-7] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.ProjectController. displayProjects with arguments[s] = [{project=Project [projectId=0, name=null, stage=null, description=null], org.springframework.validation.BindingResult.project=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, Project [projectId=0, name=null, stage=null, description=null]] 
+2021-09-25 18:04:59.245 DEBUG 17368 --- [http-nio-8080-exec-7] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:04:59.265 DEBUG 17368 --- [http-nio-8080-exec-7] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:04:59.266 DEBUG 17368 --- [http-nio-8080-exec-7] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.ProjectController. displayProjects with arguments[s] = [{project=Project [projectId=0, name=null, stage=null, description=null], org.springframework.validation.BindingResult.project=org.springframework.validation.BeanPropertyBindingResult: 0 errors, projects=[Project [projectId=-41, name=batch, stage=INPROGRESS, description=yes]]}, Project [projectId=0, name=null, stage=null, description=null]] 
+2021-09-25 18:04:59.266 DEBUG 17368 --- [http-nio-8080-exec-7] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:05:00.322 DEBUG 17368 --- [http-nio-8080-exec-8] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:05:00.322 DEBUG 17368 --- [http-nio-8080-exec-8] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.ProjectController. displayProjectForm with arguments[s] = [{}] 
+2021-09-25 18:05:00.322 DEBUG 17368 --- [http-nio-8080-exec-8] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:05:00.322 DEBUG 17368 --- [http-nio-8080-exec-8] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:05:00.323 DEBUG 17368 --- [http-nio-8080-exec-8] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.ProjectController. displayProjectForm with arguments[s] = [{}] 
+2021-09-25 18:05:00.323 DEBUG 17368 --- [http-nio-8080-exec-8] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:05:00.328 DEBUG 17368 --- [http-nio-8080-exec-8] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:05:00.328 DEBUG 17368 --- [http-nio-8080-exec-8] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.ProjectController. displayProjectForm with arguments[s] = [{project=Project [projectId=0, name=null, stage=null, description=null], allEmployees=[Employee [employeeId=-42, firstName=Milos, lastName=Sesic, email=milosh.sesic@gmail.com], Employee [employeeId=-41, firstName=Nancy, lastName=Stojkovic, email=nancy@nancy]]}] 
+2021-09-25 18:05:00.328 DEBUG 17368 --- [http-nio-8080-exec-8] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:05:10.808 DEBUG 17368 --- [http-nio-8080-exec-9] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:05:10.808 DEBUG 17368 --- [http-nio-8080-exec-9] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.ProjectController. createProject with arguments[s] = [Project [projectId=0, name=acab, stage=INPROGRESS, description=acab], {project=Project [projectId=0, name=acab, stage=INPROGRESS, description=acab], org.springframework.validation.BindingResult.project=org.springframework.validation.BeanPropertyBindingResult: 0 errors}] 
+2021-09-25 18:05:10.809 DEBUG 17368 --- [http-nio-8080-exec-9] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:05:10.809 DEBUG 17368 --- [http-nio-8080-exec-9] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:05:10.809 DEBUG 17368 --- [http-nio-8080-exec-9] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.ProjectController. createProject with arguments[s] = [Project [projectId=0, name=acab, stage=INPROGRESS, description=acab], {project=Project [projectId=0, name=acab, stage=INPROGRESS, description=acab], org.springframework.validation.BindingResult.project=org.springframework.validation.BeanPropertyBindingResult: 0 errors}] 
+2021-09-25 18:05:10.809 DEBUG 17368 --- [http-nio-8080-exec-9] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:05:10.834 DEBUG 17368 --- [http-nio-8080-exec-9] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:05:10.834 DEBUG 17368 --- [http-nio-8080-exec-9] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.ProjectController. createProject with arguments[s] = [Project [projectId=-40, name=acab, stage=INPROGRESS, description=acab], {project=Project [projectId=-40, name=acab, stage=INPROGRESS, description=acab], org.springframework.validation.BindingResult.project=org.springframework.validation.BeanPropertyBindingResult: 0 errors}] 
+2021-09-25 18:05:10.834 DEBUG 17368 --- [http-nio-8080-exec-9] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:05:10.850 DEBUG 17368 --- [http-nio-8080-exec-10] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:05:10.850 DEBUG 17368 --- [http-nio-8080-exec-10] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.ProjectController. displayProjects with arguments[s] = [{project=Project [projectId=0, name=null, stage=null, description=null], org.springframework.validation.BindingResult.project=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, Project [projectId=0, name=null, stage=null, description=null]] 
+2021-09-25 18:05:10.850 DEBUG 17368 --- [http-nio-8080-exec-10] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:05:10.850 DEBUG 17368 --- [http-nio-8080-exec-10] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:05:10.851 DEBUG 17368 --- [http-nio-8080-exec-10] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.ProjectController. displayProjects with arguments[s] = [{project=Project [projectId=0, name=null, stage=null, description=null], org.springframework.validation.BindingResult.project=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, Project [projectId=0, name=null, stage=null, description=null]] 
+2021-09-25 18:05:10.851 DEBUG 17368 --- [http-nio-8080-exec-10] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:05:10.855 DEBUG 17368 --- [http-nio-8080-exec-10] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:05:10.855 DEBUG 17368 --- [http-nio-8080-exec-10] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.ProjectController. displayProjects with arguments[s] = [{project=Project [projectId=0, name=null, stage=null, description=null], org.springframework.validation.BindingResult.project=org.springframework.validation.BeanPropertyBindingResult: 0 errors, projects=[Project [projectId=-41, name=batch, stage=INPROGRESS, description=yes], Project [projectId=-40, name=acab, stage=INPROGRESS, description=acab]]}, Project [projectId=0, name=null, stage=null, description=null]] 
+2021-09-25 18:05:10.855 DEBUG 17368 --- [http-nio-8080-exec-10] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:05:12.694 DEBUG 17368 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:05:12.695 DEBUG 17368 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.EmployeeController. displayEmployees with arguments[s] = [{employee=Employee [employeeId=0, firstName=null, lastName=null, email=null], org.springframework.validation.BindingResult.employee=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, Employee [employeeId=0, firstName=null, lastName=null, email=null]] 
+2021-09-25 18:05:12.695 DEBUG 17368 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:05:12.695 DEBUG 17368 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:05:12.695 DEBUG 17368 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.EmployeeController. displayEmployees with arguments[s] = [{employee=Employee [employeeId=0, firstName=null, lastName=null, email=null], org.springframework.validation.BindingResult.employee=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, Employee [employeeId=0, firstName=null, lastName=null, email=null]] 
+2021-09-25 18:05:12.695 DEBUG 17368 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:05:12.702 DEBUG 17368 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:05:12.703 DEBUG 17368 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.EmployeeController. displayEmployees with arguments[s] = [{employee=Employee [employeeId=0, firstName=null, lastName=null, email=null], org.springframework.validation.BindingResult.employee=org.springframework.validation.BeanPropertyBindingResult: 0 errors, employees=[Employee [employeeId=-42, firstName=Milos, lastName=Sesic, email=milosh.sesic@gmail.com], Employee [employeeId=-41, firstName=Nancy, lastName=Stojkovic, email=nancy@nancy]]}, Employee [employeeId=0, firstName=null, lastName=null, email=null]] 
+2021-09-25 18:05:12.703 DEBUG 17368 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:05:14.471 DEBUG 17368 --- [http-nio-8080-exec-2] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:05:14.472 DEBUG 17368 --- [http-nio-8080-exec-2] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.ProjectController. displayProjects with arguments[s] = [{project=Project [projectId=0, name=null, stage=null, description=null], org.springframework.validation.BindingResult.project=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, Project [projectId=0, name=null, stage=null, description=null]] 
+2021-09-25 18:05:14.472 DEBUG 17368 --- [http-nio-8080-exec-2] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:05:14.472 DEBUG 17368 --- [http-nio-8080-exec-2] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:05:14.472 DEBUG 17368 --- [http-nio-8080-exec-2] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.ProjectController. displayProjects with arguments[s] = [{project=Project [projectId=0, name=null, stage=null, description=null], org.springframework.validation.BindingResult.project=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, Project [projectId=0, name=null, stage=null, description=null]] 
+2021-09-25 18:05:14.472 DEBUG 17368 --- [http-nio-8080-exec-2] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
+2021-09-25 18:05:14.477 DEBUG 17368 --- [http-nio-8080-exec-2] c.j.pma.logging.ApplicationLoggerAspect  :  
+ 
+ 
+ 
+2021-09-25 18:05:14.477 DEBUG 17368 --- [http-nio-8080-exec-2] c.j.pma.logging.ApplicationLoggerAspect  : >>===============> Before Method Execution 
+ com.jrp.pma.controllers.ProjectController. displayProjects with arguments[s] = [{project=Project [projectId=0, name=null, stage=null, description=null], org.springframework.validation.BindingResult.project=org.springframework.validation.BeanPropertyBindingResult: 0 errors, projects=[Project [projectId=-41, name=batch, stage=INPROGRESS, description=yes], Project [projectId=-40, name=acab, stage=INPROGRESS, description=acab]]}, Project [projectId=0, name=null, stage=null, description=null]] 
+2021-09-25 18:05:14.477 DEBUG 17368 --- [http-nio-8080-exec-2] c.j.pma.logging.ApplicationLoggerAspect  : _______________________ 
+ 
+ 
+ 
