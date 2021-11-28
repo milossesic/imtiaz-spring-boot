@@ -1,6 +1,7 @@
 package com.jrp.pma.api.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -67,7 +68,11 @@ public class EmployeeApiController {
 	@DeleteMapping(path="/{id}")
 	@ResponseStatus(HttpStatus.NO_CONTENT)
 	public void delete (@PathVariable("id") Long id) {
+		try {
 		empRepo.deleteById(id);
+		} catch (EmptyResultDataAccessException ex) {
+			
+		}
 	}
 	
 }

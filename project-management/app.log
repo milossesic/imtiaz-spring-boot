@@ -3129,3 +3129,37 @@ org.springframework.dao.EmptyResultDataAccessException: No class com.jrp.pma.ent
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.17.jar:9.0.17]
 	at java.lang.Thread.run(Unknown Source) [na:1.8.0_181]
 
+2021-11-28 23:44:02.779  INFO 3740 --- [Thread-87] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-28 23:44:02.780  INFO 3740 --- [Thread-87] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-28 23:44:03.626  INFO 3740 --- [restartedMain] c.jrp.pma.ProjectManagementApplication   : Starting ProjectManagementApplication on DESKTOP-FTMKFE4 with PID 3740 (E:\workspaces\imtiaz-spring-boot\project-management\target\classes started by Korisnik in E:\workspaces\imtiaz-spring-boot\project-management)
+2021-11-28 23:44:03.627 DEBUG 3740 --- [restartedMain] c.jrp.pma.ProjectManagementApplication   : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2021-11-28 23:44:03.627  INFO 3740 --- [restartedMain] c.jrp.pma.ProjectManagementApplication   : The following profiles are active: dev
+2021-11-28 23:44:04.154  INFO 3740 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-28 23:44:04.174  INFO 3740 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 2 repository interfaces.
+2021-11-28 23:44:04.337  INFO 3740 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ccc75cdd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-28 23:44:04.730  INFO 3740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-28 23:44:04.788  INFO 3740 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1156 ms
+2021-11-28 23:44:05.458  INFO 3740 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-28 23:44:06.022  INFO 3740 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-28 23:44:06.047  WARN 3740 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-28 23:44:06.491  INFO 3740 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-28 23:44:06.552  INFO 3740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-28 23:44:06.554  INFO 3740 --- [restartedMain] c.jrp.pma.ProjectManagementApplication   : Started ProjectManagementApplication in 2.984 seconds (JVM running for 10959.363)
+2021-11-28 23:44:06.559  INFO 3740 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-28 23:47:13.250  INFO 3740 --- [Thread-94] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-28 23:47:13.253  INFO 3740 --- [Thread-94] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-28 23:47:14.161  INFO 3740 --- [restartedMain] c.jrp.pma.ProjectManagementApplication   : Starting ProjectManagementApplication on DESKTOP-FTMKFE4 with PID 3740 (E:\workspaces\imtiaz-spring-boot\project-management\target\classes started by Korisnik in E:\workspaces\imtiaz-spring-boot\project-management)
+2021-11-28 23:47:14.161 DEBUG 3740 --- [restartedMain] c.jrp.pma.ProjectManagementApplication   : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2021-11-28 23:47:14.161  INFO 3740 --- [restartedMain] c.jrp.pma.ProjectManagementApplication   : The following profiles are active: dev
+2021-11-28 23:47:14.746  INFO 3740 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-28 23:47:14.773  INFO 3740 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 2 repository interfaces.
+2021-11-28 23:47:14.887  INFO 3740 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ccc75cdd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-28 23:47:15.122  INFO 3740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-28 23:47:15.160  INFO 3740 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 994 ms
+2021-11-28 23:47:15.780  INFO 3740 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-28 23:47:16.182  INFO 3740 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-28 23:47:16.203  WARN 3740 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-28 23:47:16.526  INFO 3740 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-28 23:47:16.581  INFO 3740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-28 23:47:16.587  INFO 3740 --- [restartedMain] c.jrp.pma.ProjectManagementApplication   : Started ProjectManagementApplication in 2.485 seconds (JVM running for 11149.396)
+2021-11-28 23:47:16.591  INFO 3740 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
