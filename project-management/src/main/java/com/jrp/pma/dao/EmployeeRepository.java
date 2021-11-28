@@ -10,8 +10,6 @@ import com.jrp.pma.entities.Employee;
 
 public interface EmployeeRepository extends CrudRepository <Employee, Long> {
 	
-	@Override
-	public List<Employee> findAll();
 	
 	//fields are firstName, lastName, projectCount
 	@Query(nativeQuery=true, value="SELECT e.first_name AS firstName, e.last_name AS lastName, COUNT(pe.employee_id) AS projectCount " + 
